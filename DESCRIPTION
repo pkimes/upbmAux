@@ -1,0 +1,17 @@
+Package: upbmAux
+Title: Auxiliary universal protein binding micorarrays (uPBMs) reference data
+Version: 0.99.1
+Authors@R: person("Patrick", "Kimes", email = "patrick.kimes@gmail.com", role = c("aut", "cre"))
+Description: Auxiliary objects for analyzing universal design Protein Binding Microarrays (uPBMs)
+  using the upbm package. This currently includes all common uPBM array designs included in the
+  "Universal Protein Binding Microarray (PBM) Analysis Suite" as PBMDesign objects, as well as a reference
+  Cy3 PBMExperiment object for Cy3 normalization in the upbm package, generated from a set of 90
+  Cy3 scans.
+Depends: R (>= 3.5)
+Suggests: BiocStyle,
+          knitr,
+          upbm
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
